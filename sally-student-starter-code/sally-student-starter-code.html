@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Here you can find Sally contact information">
+    <title>Sally contact</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="application-root"></div>
+
+</body>
+</main>
+<script
+  src="https://unpkg.com/react@16/umd/react.development.js">
+</script>
+<script
+  src="https://unpkg.com/react-dom@16/umd/react-dom.development.js">
+</script>
+<script
+  src="https://unpkg.com/babel-standalone@6/babel.min.js">
+</script>
+<script type="text/babel">
+    ReactDOM.render(
+        <div className="box">
+            <header>
+                <div id="img">
+                <img className="she-is-fake" src="./fake-person.jpg" alt="Sally"/>
+                </div>
+                <h1 className="title">About me</h1>
+            </header>
+
+            <main>
+            <section id="introduction">
+            <p>Hi I'm Sally I'm 15 years old and below this line you'll find more information about me.</p>
+            </section>
+            <br/>
+            <section id="Education">
+            <p>I have studied at:</p>
+            <ul>
+                <li>Fake University, from 2000-2001 (I was created there)</li>
+                <li>Unreal Education Community College, from 2001-2015 (I majored in human studies)</li>
+            </ul>
+        </section>
+        <br/>
+        <section id="works">
+        <p>I have worked at:</p>
+        <div id="works_list">
+            <ul>
+                <li>Fake Enterprises for deep-fake rendered peeps.
+                </li>
+                <li>
+                    annoying-not-helpful-bots.org
+                </li>
+            </ul>
+        </div>
+    </section>
+    <br/>
+    <section id="Contact-section">
+        <p>My contact information: </p>
+        <address id="Contact-info">
+            <p>My name is Sally</p>
+            <p>My email is: <a href="mailto://sally@IntenetExplorer.old">sally@IntenetExplorer.old</a></p>
+            <p>My phone number is: <a href="tel:+34100572415">+34 100 57 24 15</a></p>
+            <p>My address is: <a href="http://maps.google.com/maps?q=1234+Fake+Ave,+Fakeville,+TN+37203">1234, Fake Ave, Fakeville, TN 37203</a></p>
+        </address>
+    </section>
+    </main>
+    </div>,
+
+    document.getElementById("application-root")    
+    )
+
+
+</script>
+
+</body>
+</html>
